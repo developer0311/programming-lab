@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diprati's website ❤</title>
+    <link rel="stylesheet" href="style-1.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Noto+Serif:ital@1&family=Sofia+Sans+Semi+Condensed:ital,wght@1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top-container">
+        <h1>Programming Lab Assignments</h1>
+        <h3>Language : C</h3>
+    </div>
+
+    <div class="middle-container">
+        <div class="day-1">
+            <h2>Day : 1 Assignments</h2>
+            <img class="code-picture" src="coding-picture.gif">
+            <hr>
+            <div class="ans-row">
+                <h3>Question : 1</h3><br>
+                <p>//Write a C program to print "Hello World".<br><br>
+                    #include&#60stdio.h&#62<br>
+                    int main(void)<br>
+                    {<br>
+                    &nbsp&nbsp&nbsp&nbsp    printf("Hello World");<br>
+                    &nbsp&nbsp&nbsp&nbsp    return 0;<br>
+                    }<br></p>
+                <a class="btn" href="hello-world.png">Output</a>
+                <a class="btn" href="hello-world.cpp">Code Here</a>
+            </div>
+
+            <div class="ans-row">
+                <h3>Question : 2</h3><br>
+                <p>// Write a C program to add two integers.<br><br>
+                    #include&#60stdio.h&#62<br>
+                    int main(void)<br>
+                    {<br>
+                    &nbsp&nbsp&nbsp&nbsp    int a,b;<br>
+                    &nbsp&nbsp&nbsp&nbsp    printf("\nEnter Two Number To Add : ");<br>
+                    &nbsp&nbsp&nbsp&nbsp    scanf("%d%d",&a,&b);<br>
+                    &nbsp&nbsp&nbsp&nbsp    printf("\nAddition of Given Integers : %d",a+b);<br>
+                    &nbsp&nbsp&nbsp&nbsp    return 0;<br>
+                    }<br></p>
+                <a class="btn" href="add-two-integers.png">Output</a>
+                <a class="btn" href="add-two-integers.cpp">Code Here</a>
+            </div>
+            <div class="ans-row">
+                <h3>Question : 3</h3><br>
+                <p>//Write a C program to substract one number from the other.<br><br>
+                    #include&#60stdio.h&#62<br>
+                    int main(void)<br>
+                    {<br>
+                    &nbsp&nbsp&nbsp&nbsp    int a,b;<br>
+                    &nbsp&nbsp&nbsp&nbsp    printf("\nEnter Two Number To Substract : ");<br>
+                    &nbsp&nbsp&nbsp&nbsp    scanf("%d%d",&a,&b);<br>
+                    &nbsp&nbsp&nbsp&nbsp    printf("\n%d - %d : %d",a,b,a-b);<br>
+                    &nbsp&nbsp&nbsp&nbsp    return 0;<br>
+                    }<br></p>
+                <a class="btn" href="substract-one-from-the-other.png">Output</a>
+                <a class="btn" href="substract-one-from-the-other.cpp">Code Here</a>
+            </div>
+            <div class="ans-row">
+                <h3>Question : 4</h3><br>
+                <p>//Write a C program to make a simple calculator.<br><br>
+                    #include&#60stdio.h&#62<br>
+                    int main(void)<br>
+                    {<br>
+                    &nbsp&nbsp&nbsp&nbsp    int a,b;<br>
+                    &nbsp&nbsp&nbsp&nbsp    printf("\nEnter Two Oparands : ");<br>
+                    &nbsp&nbsp&nbsp&nbsp    scanf("%d%d",&a,&b);<br>
+                    &nbsp&nbsp&nbsp&nbsp    printf("\n%d + %d : %d",a,b,a+b);<br>
+                    &nbsp&nbsp&nbsp&nbsp    printf("\n%d - %d : %d",a,b,a-b);<br>
+                    &nbsp&nbsp&nbsp&nbsp    printf("\n%d X %d : %d",a,b,a*b);<br>
+                    &nbsp&nbsp&nbsp&nbsp    printf("\n%d / %d : %d",a,b,a/b);<br>
+                    &nbsp&nbsp&nbsp&nbsp    return 0;<br>
+                    }<br></p>
+                <a class="btn" href="simple-calculator.png">Output</a>
+                <a class="btn" href="simple-calculator.cpp">Code Here</a>
+            </div>
+            <div class="ans-row">
+                <h3>Question : 5</h3><br>
+                <p>//Write a C program to swap two numbers.<br><br>
+                    #include&#60stdio.h&#62<br>
+                    int main(void)<br>
+                    {<br>
+                    &nbsp&nbsp&nbsp&nbsp    int a,b;<br>
+                    &nbsp&nbsp&nbsp&nbsp    printf("\nEnter Two Number To Swap : ");<br>
+                    &nbsp&nbsp&nbsp&nbsp    scanf("%d%d",&a,&b);<br>
+                    &nbsp&nbsp&nbsp&nbsp    printf("\nBefore Swap Two Numbers : %d & %d",a,b);<br>
+                    &nbsp&nbsp&nbsp&nbsp    a=a+b;<br>
+                    &nbsp&nbsp&nbsp&nbsp    b=a-b;<br>
+                    &nbsp&nbsp&nbsp&nbsp    a=a-b;<br>
+                    &nbsp&nbsp&nbsp&nbsp    printf("\nAfter Swap Two Numbers : %d & %d",a,b);<br>
+                    &nbsp&nbsp&nbsp&nbsp    return 0;<br>
+                    }<br></p>
+                <a class="btn" href="swap-two-numbers.png">Output</a>
+                <a class="btn" href="swap-two-numbers.cpp">Code Here</a>
+            </div>
+            <div class="ans-row">
+                <h3>Question : 6</h3><br>
+                <p>//.Write a C program to find ASCII value of any character.<br><br>
+                    #include&#60stdio.h&#62<br>
+                    int main(void)<br>
+                    {<br>
+                    &nbsp&nbsp&nbsp&nbsp    char a;<br>
+                    &nbsp&nbsp&nbsp&nbsp    printf("\nEnter A Character To Know ASCII Value : ");<br>
+                    &nbsp&nbsp&nbsp&nbsp    scanf("%c",&a);<br>
+                    &nbsp&nbsp&nbsp&nbsp    printf("\nASCII Value Of %c Is : %d",a,a);<br>
+                    &nbsp&nbsp&nbsp&nbsp    return 0;<br>
+                    }<br></p>
+                <a class="btn" href="ASCII-value-of-any-character.png">Output</a>
+                <a class="btn" href="ASCII-value-of-any-character.cpp">Code Here</a>
+            </div>
+            <div class="ans-row">
+                <h3>Question : 7</h3><br>
+                <p>//Write a C program to find out whether an integar is greater than 100 or less than 100.<br>
+                    #include&#60stdio.h&#60<br>
+                    int main(void)<br>
+                    {<br>
+                    &nbsp&nbsp&nbsp&nbsp    int a;<br>
+                    &nbsp&nbsp&nbsp&nbsp    printf("\nEnter An Integar To Check Greater Than 100 Or Less Than 100 : ");<br>
+                    &nbsp&nbsp&nbsp&nbsp    scanf("%d",&a);<br>
+                    &nbsp&nbsp&nbsp&nbsp    if (a==100)<br>
+                    &nbsp&nbsp&nbsp&nbsp    &nbsp&nbsp&nbsp&nbsp    printf("\n%d Is Equal To 100",a);<br>
+                    &nbsp&nbsp&nbsp&nbsp    else<br>
+                    &nbsp&nbsp&nbsp&nbsp    &nbsp&nbsp&nbsp&nbsp    if(a>100)<br>
+                    &nbsp&nbsp&nbsp&nbsp    &nbsp&nbsp&nbsp&nbsp    &nbsp&nbsp&nbsp&nbsp    printf("\n%d Is Greater Than 100",a);<br>
+                    &nbsp&nbsp&nbsp&nbsp    &nbsp&nbsp&nbsp&nbsp    else<br>
+                    &nbsp&nbsp&nbsp&nbsp    &nbsp&nbsp&nbsp&nbsp    &nbsp&nbsp&nbsp&nbsp    printf("\n%d Is Less Than 100",a);<br>
+                    &nbsp&nbsp&nbsp&nbsp    return 0;<br>
+                    }<br></p>
+                <a class="btn" href="whether-an-integar-is-greater-than-100-or-less-than-100.png">Output</a>
+                <a class="btn" href="whether-an-integar-is-greater-than-100-or-less-than-100.cpp">Code Here</a>
+            </div>
+            <!--<div class="ans-row">
+                <h3>Question : </h3><br>
+                <p></p>
+                <a class="btn" href="">Output</a>
+                <a class="btn" href="">Code Here</a>
+            </div>-->
+            <hr>
+            <div class="contact-me">
+                <h2>If any difficulty then please contact .</h2>
+                <a class="btn" href="mailto:dipratidas2004@gmail.com">CONTACT ME</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.facebook.com/profile.php?id=100034527431504&mibextid=ZbWKwL">Facebook</a>
+        <a class="footer-link" href="https://instagram.com/ek_villain_3114?igshid=YmMyMTA2M2Y=">Instagram</a>
+        <a class="footer-link" href="https://twitter.com/lover_boy_0311?t=4eIKd6hyT37TudLRK-Igwg&s=09">Twitter</a>
+        <p class="copyright-message">© 2020 Diprati Das @ developer0311</p>
+    </div>
+</body>
+</html>
