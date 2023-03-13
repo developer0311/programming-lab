@@ -16,5 +16,5 @@ int main(void)
     		printf("\n%d Is Largest .",b);
     	else
         	printf("\n%d Is Largest .",c);
-	return 0;
+    return 0;
 }
