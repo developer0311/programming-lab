@@ -10,5 +10,5 @@ int main(void)
     	printf("\n%d Is Greater Than %d .",a,b);
     else
         printf("\n%d Is Greater Than %d .",b,a);
-	return 0;
+    return 0;
 }
