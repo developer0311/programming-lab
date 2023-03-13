@@ -13,5 +13,5 @@ int main(void)
     else
     	printf("\n%c Is Not An Alphabet !! Try Again !!.",c);
 		
-	return 0;
+    return 0;
 }
